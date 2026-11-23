@@ -1,0 +1,16 @@
+{
+  "name": "guildtools",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A compact Discord utility bot with practical slash commands.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7"
+  }
+}
